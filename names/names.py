@@ -23,6 +23,7 @@ for name_2 in names_2:
 
 
 # Replace the nested for loops below with your improvements
+# original runtime: ~4 sec
 for name_1 in names_1:
     if bst.contains(name_1):
         duplicates.append(name_1)
